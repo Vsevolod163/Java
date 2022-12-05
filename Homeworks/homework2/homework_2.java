@@ -3,7 +3,7 @@ package Homeworks.homework2;
 public class homework_2 {
 
     public static void main(String[] params) {
-        int[] array = new int[] {33, 21, 12, 19, 124, 300, 15, 270};
+        int[] array = new int[] { 33, 21, 12, 19, 124, 300, 15, 270 };
         System.out.println(arrayToString(array));
         array = mergeSort(array);
         System.out.println(arrayToString(array));
@@ -32,7 +32,7 @@ public class homework_2 {
     }
 
     private static void merge(int[] src1, int start1, int[] src2, int start2, int[] dest,
-                              int destStart, int size) {
+            int destStart, int size) {
         int index1 = start1;
         int index2 = start2;
 
